@@ -8,6 +8,7 @@ const Item = styled.li`
 
 const Button = styled.button`
   padding: 8px 16px;
+  margin-left: auto;
 
   color: black;
   background-color: transparent;
