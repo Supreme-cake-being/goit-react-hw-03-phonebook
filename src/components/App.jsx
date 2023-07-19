@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { nanoid } from 'nanoid';
 
 import { Box, Title, Subtitle } from './App.styled';
 import Form from './Form/Form';
@@ -9,10 +8,10 @@ import Filter from './Filter/Filter';
 class App extends Component {
   state = {
     contacts: [
-      { id: "serega", name: 'Serega Bublik', number: '228-69-47' },
-      { id: "id-2", name: 'Harry Squater', number: '239-93-21' },
-      { id: "id-3", name: 'Captain Jacked Sparrow', number: '432-34-56' },
-      { id: "id-4", name: 'Harry Shprotter', number: '432-98-09' },
+      { id: 'serega', name: 'Serega Bublik', number: '228-69-47' },
+      { id: 'id-2', name: 'Harry Squater', number: '239-93-21' },
+      { id: 'id-3', name: 'Captain Jacked Sparrow', number: '432-34-56' },
+      { id: 'id-4', name: 'Harry Shprotter', number: '432-98-09' },
     ],
     filter: '',
   };
