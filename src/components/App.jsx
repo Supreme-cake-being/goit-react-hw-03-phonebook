@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { nanoid } from 'nanoid';
 
 import { Box, Title, Subtitle } from './App.styled';
 import Form from './Form/Form';
